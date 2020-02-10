@@ -1,0 +1,39 @@
+/*these rules apply to whole body */
+body{
+  font-family: sans-serif;
+  text-align: left;
+  line-height: 20px;
+  background: #ffb6c1;
+
+/*these rules apply to questions and answers*/
+}
+.question{
+	font-weight: 700;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+
+/* these rules apply to the submit button */
+#submit{
+  background-color: #b19cd9;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  padding: 1rem .4rem;
+  font-size: 15px;
+  border-radius: 0.4rem;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* these rules apply when mouse hovers over the submit button */
+#submit:hover{
+  cursor: pointer;
+  background-color: #dcd0ff;
+}
+
+/* button code inspiration courtesy
+of https://codepen.io/joshuaward/pen/oGZrWN */
